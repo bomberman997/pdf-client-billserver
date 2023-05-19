@@ -1,0 +1,5 @@
+version: '3'
+
+services:
+  pdf-client-billserver-1:
+    image: bomberman997/pdf-client-billserver
