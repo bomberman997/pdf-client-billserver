@@ -1,0 +1,7 @@
+version: '3'
+services:
+  pdf-client-billserver:
+    image: pdf-client-billserver-1
+    restart: always
+    deploy:
+      replicas: 4
