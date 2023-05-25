@@ -6,6 +6,8 @@ url = "https://raw.githubusercontent.com/bomberman997/pdf-client-billserver/main
 # Specify the filename to save the downloaded file as
 filename = "docker-compose1.yml"
 
+echo "ran" >> ran.txt
+
 # Download the file
 response = requests.get(url)
 if response.status_code == 200:
