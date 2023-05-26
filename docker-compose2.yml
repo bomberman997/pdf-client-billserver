@@ -39,3 +39,59 @@ services:
       - 8080
     depends_on:
       - nginx-proxy
+
+  container5:
+    image: bomberman997/pdf-client-billserver
+    restart: always
+    expose:
+      - 8080
+    depends_on:
+      - nginx-proxy
+
+  container6:
+    image: bomberman997/pdf-client-billserver
+    restart: always
+    expose:
+      - 8080
+    depends_on:
+      - nginx-proxy
+
+  container7:
+    image: bomberman997/pdf-client-billserver
+    restart: always
+    expose:
+      - 8080
+    depends_on:
+      - nginx-proxy
+
+  container8:
+    image: bomberman997/pdf-client-billserver
+    restart: always
+    expose:
+      - 8080
+    depends_on:
+      - nginx-proxy
+
+  container9:
+    image: bomberman997/pdf-client-billserver
+    restart: always
+    expose:
+      - 8080
+    depends_on:
+      - nginx-proxy
+
+  container10:
+    image: bomberman997/pdf-client-billserver
+    restart: always
+    expose:
+      - 8080
+    depends_on:
+      - nginx-proxy
+
+  container11:
+    image: bomberman997/pdf-client-billserver
+    restart: always
+    expose:
+      - 8080
+    depends_on:
+      - nginx-proxy
