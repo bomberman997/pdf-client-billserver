@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# nginx download
+curl -O https://raw.githubusercontent.com/bomberman997/pdf-client-billserver/main/nginx.conf
+
 # Download the docker-compose file
 curl -O https://raw.githubusercontent.com/bomberman997/pdf-client-billserver/main/docker-compose1.yml
 
