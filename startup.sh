@@ -14,4 +14,4 @@ chmod +x docker-compose1.yml
 # wget https://raw.githubusercontent.com/bomberman997/pdf-client-billserver/main/docker-compose1.yml
 
 # Start up the services defined in the downloaded docker-compose file
-docker-compose -f docker-compose1.yml up -d --no-recreate
+docker-compose -f docker-compose2.yml up -d --no-recreate
